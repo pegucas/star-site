@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="menu-icon" onclick="window.location.href='index.html'">STAR★ HOME</div>
+        <nav class="top-nav">
+            <a href="revistas.html">NOSSAS REVISTAS ▼</a>
+        </nav>
+    </header>
+
+    <main class="container" style="max-width: 600px; margin-bottom: 100px;">
+        <h1 class="page-title">Fale Conosco</h1>
+        <p style="text-align: center; margin-bottom: 30px;">Envie suas dúvidas, sugestões ou propostas comerciais.</p>
+        
+        <form id="contact-page-form" class="contact-form">
+            <input type="text" placeholder="Seu Nome Completo" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <select required>
+                <option value="">Assunto...</option>
+                <option value="assinatura">Problemas com Assinatura</option>
+                <option value="comercial">Comercial / Parcerias</option>
+                <option value="outros">Outros</option>
+            </select>
+            <textarea rows="5" placeholder="Sua Mensagem..." required></textarea>
+            <button type="submit" class="btn-purple" style="width: 100%; border:none; cursor:pointer;">ENVIAR MENSAGEM</button>
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">STAR★</div>
+            </div>
+            <div class="footer-right">
+                <p>Central de Atendimento STAR★</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
